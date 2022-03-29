@@ -24,4 +24,8 @@ public class Cat {
         weight-=1.5*time;
     }
 
+    public void Play(int time){
+        weight-=0.5*time;
+    }
+
 }
