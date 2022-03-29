@@ -20,14 +20,12 @@ public class Cat {
         weight+=eat;
     }
 
-
+    public void Walk(int time){
+        weight-=1.5*time;
+    }
 
     public void Play(int time){
         weight-=0.5*time;
-    }
-
-    public void Walk(int time){
-        weight-=1.5*time;
     }
 
 }
