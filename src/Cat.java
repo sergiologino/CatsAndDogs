@@ -1,13 +1,13 @@
 public class Cat {
     String name;
     int age;
-    int weight;
+    double weight;
     String color;
 
     public Cat(){
         this("noname",0,0.1,"black");
     }
-    public Cat(String name, int age,weight, String color){
+    public Cat(String name, int age,double weight, String color){
         this.name=name;
         this.color=color;
         this.age=age;
@@ -16,10 +16,10 @@ public class Cat {
     public void OutputCat(){
         System.out.println(" This "+color+" cat is "+name+" ,his age "+age+ " years and weight is "+weight);
     }
-    public feed(int eat){
+    public void Feed(int eat){
         weight+=eat;
     }
-    public play(int time){
+    public void Play(int time){
         weight-=0.5*time;
     }
 }
