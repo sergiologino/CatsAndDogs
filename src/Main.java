@@ -10,6 +10,6 @@ public class Main {
         Barsik.OutputCat();
         Kesha.OutputCat();
         Sharik.OutputDog();
-        Sharik.OutputDog();
+        Barbos.OutputDog();
     }
 }
