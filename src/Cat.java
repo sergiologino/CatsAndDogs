@@ -16,7 +16,10 @@ public class Cat {
     public void OutputCat(){
         System.out.println(" This "+color+" cat is "+name+" ,his age "+age+ " years and weight is "+weight);
     }
-
+    public feed(int eat){
+        weight+=eat;
     }
-
+    public play(int time){
+        weight-=0.5*time;
+    }
 }
